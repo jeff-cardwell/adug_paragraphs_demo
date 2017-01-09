@@ -21,5 +21,8 @@
     },
     "require-dev": {
         "drush/drush": "^8.1"
+    },
+    "scripts": {
+        "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
     }
 }
