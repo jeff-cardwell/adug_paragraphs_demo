@@ -1,0 +1,24 @@
+{
+    "name": "jeff-cardwell/adug_paragraphs_demo",
+    "authors": [
+        {
+            "name": "Jeff Cardwell",
+            "email": "jeffcardwell@gmail.com"
+        }
+    ],
+    "require": {
+        "composer/installers": "^1.2",
+        "drupal-composer/drupal-scaffold": "^2.2",
+        "drupal/core": "^8.2",
+        "drupal/config_installer": "^1.3"
+    },
+    "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    },
+    "require-dev": {
+        "drush/drush": "^8.1"
+    }
+}
