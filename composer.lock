@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7f964254f253b308f56f23667d985cbd",
+    "content-hash": "f0de5772fe9bcf80e6af9bdc5e14b634",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -941,7 +941,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/field_group-8.x-1.0-rc6.zip",
-                "reference": null,
+                "reference": "8.x-1.0-rc6",
                 "shasum": "1ce3c6387e745a04a1099956a5bf39bb50096d44"
             },
             "require": {
@@ -1377,6 +1377,37 @@
                 "password"
             ],
             "time": "2014-11-20T16:49:30+00:00"
+        },
+        {
+            "name": "jeff-cardwell/apdmt",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jeff-cardwell/adug_paragraphs_demo_main_theme.git",
+                "reference": "e31416b3a5084bfa353832a32a8f666edeb50581"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jeff-cardwell/adug_paragraphs_demo_main_theme/zipball/e31416b3a5084bfa353832a32a8f666edeb50581",
+                "reference": "e31416b3a5084bfa353832a32a8f666edeb50581",
+                "shasum": ""
+            },
+            "type": "drupal-theme",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Jeff Cardwell",
+                    "email": "jeffcardwell@gmail.com"
+                }
+            ],
+            "description": "ADUG Paragraphs Demo Main Theme",
+            "support": {
+                "source": "https://github.com/jeff-cardwell/adug_paragraphs_demo_main_theme/tree/develop",
+                "issues": "https://github.com/jeff-cardwell/adug_paragraphs_demo_main_theme/issues"
+            },
+            "time": "2017-01-10 20:16:22"
         },
         {
             "name": "masterminds/html5",
@@ -3913,7 +3944,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/field_group": 5
+        "drupal/field_group": 5,
+        "jeff-cardwell/apdmt": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

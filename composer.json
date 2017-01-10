@@ -20,14 +20,14 @@
         "drupal": {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        "apdmt": {
+            "type": "vcs",
+            "url": "https://github.com/jeff-cardwell/adug_paragraphs_demo_main_theme.git"
         }
     },
     "require-dev": {
         "drush/drush": "^8.1"
-    },
-    "apdmt": {
-        "type": "vcs",
-        "url": "https://github.com/jeff-cardwell/adug_paragraphs_demo_main_theme.git"
     },
     "extra": {
         "installer-paths": {
