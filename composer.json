@@ -13,7 +13,8 @@
         "drupal/core": "^8.2",
         "drupal/config_installer": "^1.3",
         "drupal/paragraphs": "^1.0",
-        "drupal/field_group": "^1.0@RC"
+        "drupal/field_group": "^1.0@RC",
+        "jeff-cardwell/apdmt": "dev-master"
     },
     "repositories": {
         "drupal": {
@@ -23,6 +24,15 @@
     },
     "require-dev": {
         "drush/drush": "^8.1"
+    },
+    "apdmt": {
+        "type": "vcs",
+        "url": "https://github.com/jeff-cardwell/adug_paragraphs_demo_main_theme.git"
+    },
+    "extra": {
+        "installer-paths": {
+            "themes/{$name}": ["jeff-cardwell/apdmt"]
+        }
     },
     "scripts": {
         "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
