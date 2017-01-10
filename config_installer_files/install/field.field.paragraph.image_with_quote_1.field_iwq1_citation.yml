@@ -1,0 +1,21 @@
+uuid: 99a77700-d24f-4464-9673-0407318723e9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_iwq1_citation
+    - paragraphs.paragraphs_type.image_with_quote_1
+  module:
+    - text
+id: paragraph.image_with_quote_1.field_iwq1_citation
+field_name: field_iwq1_citation
+entity_type: paragraph
+bundle: image_with_quote_1
+label: 'IWQ1 Citation'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

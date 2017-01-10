@@ -1,0 +1,26 @@
+uuid: 1d058865-3858-4277-ba44-aaf48d4f51c3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.demo_content_type_2.field_dct2_paragraphs
+    - node.type.demo_content_type_2
+  module:
+    - entity_reference_revisions
+    - user
+id: node.demo_content_type_2.default
+targetEntityType: node
+bundle: demo_content_type_2
+mode: default
+content:
+  field_dct2_paragraphs:
+    type: entity_reference_revisions_entity_view
+    weight: 101
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }
