@@ -1,0 +1,22 @@
+uuid: 1a701801-4ee4-4732-9850-2a7650e944e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_iwwt2_text
+    - paragraphs.paragraphs_type.inset_wrapped_with_text_2
+  module:
+    - text
+id: paragraph.inset_wrapped_with_text_2.field_iwwt2_text
+field_name: field_iwwt2_text
+entity_type: paragraph
+bundle: inset_wrapped_with_text_2
+label: 'IWWT2 Text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

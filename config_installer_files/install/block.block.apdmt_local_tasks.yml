@@ -1,11 +1,11 @@
-uuid: 3866d018-1587-41b2-a149-906d31ce054c
+uuid: 8af936ed-8546-459e-84da-4177940a36d0
 langcode: en
 status: true
 dependencies:
   theme:
     - apdmt
 _core:
-  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+  default_config_hash: p4yAngiIE6zQlPXb0w4z_yDEiXZLkT1mfQkNey1BPYU
 id: apdmt_local_tasks
 theme: apdmt
 region: content

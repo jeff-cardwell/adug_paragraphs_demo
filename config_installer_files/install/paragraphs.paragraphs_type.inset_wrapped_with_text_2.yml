@@ -1,0 +1,6 @@
+uuid: a78b5a24-f04a-4a01-8c4f-69756326f005
+langcode: en
+status: true
+dependencies: {  }
+id: inset_wrapped_with_text_2
+label: 'Inset Wrapped With Text Using Field Groups - With Component Library'

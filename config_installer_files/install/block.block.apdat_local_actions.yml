@@ -1,15 +1,15 @@
-uuid: bbcf7c5f-f1c2-4334-93a1-b5eea88a1c64
+uuid: 38c1d6f0-b3fc-4975-a07a-567b282161b4
 langcode: en
 status: true
 dependencies:
   theme:
-    - apdmt
+    - apdat
 _core:
-  default_config_hash: sbi3KKaI_yuTAqtRFmMZ5zacdS7x5n5ye29xLYUo_II
-id: apdmt_local_actions
-theme: apdmt
+  default_config_hash: d_2uQIG6-45k4ty4kr9xsbNW-BaVrgg5W9EWrxiABGU
+id: apdat_local_actions
+theme: apdat
 region: content
-weight: -20
+weight: -4
 provider: null
 plugin: local_actions_block
 settings:

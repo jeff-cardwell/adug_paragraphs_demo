@@ -1,17 +1,17 @@
-uuid: d93f936c-afe1-4f88-8735-97392da637f0
+uuid: 18713558-b2dd-493d-91a8-344ea1c55758
 langcode: en
 status: true
 dependencies:
   module:
     - help
   theme:
-    - apdmt
+    - apdat
 _core:
-  default_config_hash: CZ-qKYsi3axvlVQ8sha1HYeqvfb3BD2cwRlkxqYjYds
-id: apdmt_help
-theme: apdmt
-region: content
-weight: -30
+  default_config_hash: cbqMulidx9rIGBDyBf9WEdlhQfg6roFhmYthTHZ4FsM
+id: apdat_help
+theme: apdat
+region: help
+weight: -5
 provider: null
 plugin: help_block
 settings:

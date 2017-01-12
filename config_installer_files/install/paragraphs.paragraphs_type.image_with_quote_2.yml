@@ -3,4 +3,4 @@ langcode: en
 status: true
 dependencies: {  }
 id: image_with_quote_2
-label: 'Image with Quote 2'
+label: 'Image with Quote - No Component Library'

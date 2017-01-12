@@ -1,15 +1,15 @@
-uuid: 7a57cccf-a079-4e5d-adbe-5230091b0459
+uuid: 9678506a-1a77-4934-84bd-eef277cf41c0
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - apdmt
+    - apdat
 _core:
-  default_config_hash: Ajy5WhmZZpQB0UFx9LT_EK5Qqi4EBAMcOpNo49GVxlQ
-id: apdmt_breadcrumbs
-theme: apdmt
+  default_config_hash: A_zSXFR2cwHPMjiJmdjU5uNiS1ez97VRUWzUAO0LXw4
+id: apdat_breadcrumbs
+theme: apdat
 region: breadcrumb
 weight: 0
 provider: null

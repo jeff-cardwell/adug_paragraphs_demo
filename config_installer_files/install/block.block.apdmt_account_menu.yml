@@ -1,4 +1,4 @@
-uuid: 99618301-2d74-4bbe-9796-908cd0b38c64
+uuid: 7dba2200-947f-435b-9e87-56ad58e0780f
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
   theme:
     - apdmt
 _core:
-  default_config_hash: DweBpscQZdG0-fHkSpUzdYucrNH45G_KF7Z82V-oyQM
+  default_config_hash: uO6jlDrmx5t0OQ3ovs2-bm2v85XI2f53dKPHJUys4pg
 id: apdmt_account_menu
 theme: apdmt
 region: secondary_menu

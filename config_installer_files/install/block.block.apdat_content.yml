@@ -1,17 +1,17 @@
-uuid: e3343aca-c9ab-44cd-bc52-238558de1c18
+uuid: 11b9d96e-1f32-4d60-9cdd-18c3b00400d1
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - apdmt
+    - apdat
 _core:
-  default_config_hash: gMSE5eWpXQVGdyah4A-p7qTTQg6-lb1gwEcPiSIn1LU
-id: apdmt_content
-theme: apdmt
+  default_config_hash: fKFWGbtAOhgl45iy91lcKyw-_UyEw96V70jTdc8vzFs
+id: apdat_content
+theme: apdat
 region: content
-weight: 0
+weight: -3
 provider: null
 plugin: system_main_block
 settings:

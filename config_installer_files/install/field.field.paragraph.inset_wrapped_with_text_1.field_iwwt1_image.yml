@@ -1,17 +1,17 @@
-uuid: 11202c03-564f-4b1b-a382-bd1a4dded5a3
+uuid: 9b54cb27-184c-49cb-b182-ad0acb1a8c44
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_iwwt_image
-    - paragraphs.paragraphs_type.inset_wrapped_with_text
+    - field.storage.paragraph.field_iwwt1_image
+    - paragraphs.paragraphs_type.inset_wrapped_with_text_1
   module:
     - image
-id: paragraph.inset_wrapped_with_text.field_iwwt_image
-field_name: field_iwwt_image
+id: paragraph.inset_wrapped_with_text_1.field_iwwt1_image
+field_name: field_iwwt1_image
 entity_type: paragraph
-bundle: inset_wrapped_with_text
-label: 'IWWT Image'
+bundle: inset_wrapped_with_text_1
+label: 'IWWT1 Image'
 description: ''
 required: false
 translatable: false

@@ -1,34 +1,34 @@
-uuid: 572f4150-3a96-49b8-991e-76239ac06912
+uuid: 379d3e22-0bf6-4535-991c-19c2f15e1830
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.inset_wrapped_with_text.field_iwwt_horizontal_alignment
-    - field.field.paragraph.inset_wrapped_with_text.field_iwwt_image
-    - field.field.paragraph.inset_wrapped_with_text.field_iwwt_text
+    - field.field.paragraph.inset_wrapped_with_text_1.field_iwwt1_horizontal_alignment
+    - field.field.paragraph.inset_wrapped_with_text_1.field_iwwt1_image
+    - field.field.paragraph.inset_wrapped_with_text_1.field_iwwt1_text
     - image.style.thumbnail
-    - paragraphs.paragraphs_type.inset_wrapped_with_text
+    - paragraphs.paragraphs_type.inset_wrapped_with_text_1
   module:
     - image
     - text
-id: paragraph.inset_wrapped_with_text.default
+id: paragraph.inset_wrapped_with_text_1.default
 targetEntityType: paragraph
-bundle: inset_wrapped_with_text
+bundle: inset_wrapped_with_text_1
 mode: default
 content:
-  field_iwwt_horizontal_alignment:
-    weight: 4
+  field_iwwt1_horizontal_alignment:
+    weight: 0
     settings: {  }
     third_party_settings: {  }
     type: options_select
-  field_iwwt_image:
-    weight: 3
+  field_iwwt1_image:
+    weight: 1
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
-  field_iwwt_text:
+  field_iwwt1_text:
     weight: 2
     settings:
       rows: 9

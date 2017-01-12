@@ -1,0 +1,22 @@
+uuid: a38d478c-ffa1-47c9-884f-628d206fdda3
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - apdat
+_core:
+  default_config_hash: vhk5cPKUYNwKFdT3mHcaSst1tf_rPAq8OCOBymTCQpk
+id: apdat_userlogin
+theme: apdat
+region: content
+weight: -2
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  provider: user
+  label_display: visible
+visibility: {  }

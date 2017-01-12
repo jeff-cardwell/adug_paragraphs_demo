@@ -1,15 +1,15 @@
-uuid: f1742927-6ff6-4afc-96d2-a2000ce59c1c
+uuid: 55f69d37-23da-4b41-b20c-038060e06733
 langcode: en
 status: true
 dependencies:
   theme:
-    - apdmt
+    - apdat
 _core:
-  default_config_hash: DTUqAEyPzu6IeJ223qP76IqN2cM4U4SVxKM5AV8UzF0
-id: apdmt_page_title
-theme: apdmt
-region: content
-weight: -50
+  default_config_hash: YpNktOxYjI_nfq9UpV0nUCBVIVvx3gAjMGQudyh2s3k
+id: apdat_page_title
+theme: apdat
+region: header
+weight: -5
 provider: null
 plugin: page_title_block
 settings:
