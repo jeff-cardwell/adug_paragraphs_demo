@@ -1,0 +1,41 @@
+uuid: 9bd62ff5-9a64-4ff5-a1b7-21ac3a7e824f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.inset_wrapped_with_text.field_iwwt_horizontal_alignment
+    - field.field.paragraph.inset_wrapped_with_text.field_iwwt_image
+    - field.field.paragraph.inset_wrapped_with_text.field_iwwt_text
+    - paragraphs.paragraphs_type.inset_wrapped_with_text
+  module:
+    - image
+    - options
+    - text
+id: paragraph.inset_wrapped_with_text.default
+targetEntityType: paragraph
+bundle: inset_wrapped_with_text
+mode: default
+content:
+  field_iwwt_horizontal_alignment:
+    type: list_default
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+  field_iwwt_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_iwwt_text:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+hidden:
+  created: true
+  uid: true

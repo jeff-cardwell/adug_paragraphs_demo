@@ -1,0 +1,21 @@
+uuid: 3960f703-47a3-4e53-86e5-d1160c83fa23
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_iwwt_horizontal_alignment
+    - paragraphs.paragraphs_type.inset_wrapped_with_text
+  module:
+    - options
+id: paragraph.inset_wrapped_with_text.field_iwwt_horizontal_alignment
+field_name: field_iwwt_horizontal_alignment
+entity_type: paragraph
+bundle: inset_wrapped_with_text
+label: 'IWWT Horizontal Alignment'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

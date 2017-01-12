@@ -1,0 +1,41 @@
+uuid: f3ac9096-c19c-4ef2-b506-899e6a34e6de
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.image_with_quote_3.field_iwq3_citation
+    - field.field.paragraph.image_with_quote_3.field_iwq3_image
+    - field.field.paragraph.image_with_quote_3.field_iwq3_quote
+    - paragraphs.paragraphs_type.image_with_quote_3
+  module:
+    - image
+    - text
+id: paragraph.image_with_quote_3.preview
+targetEntityType: paragraph
+bundle: image_with_quote_3
+mode: preview
+content:
+  field_iwq3_citation:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_iwq3_image:
+    weight: 2
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_iwq3_quote:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+hidden:
+  created: true
+  uid: true
