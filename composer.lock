@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "37af5dda4ef56c0ccac59c005035f060",
+    "content-hash": "ba5223a626bf60fda3b46d461b96c6cc",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1415,6 +1415,37 @@
                 "password"
             ],
             "time": "2014-11-20T16:49:30+00:00"
+        },
+        {
+            "name": "jeff-cardwell/apdat",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jeff-cardwell/adug_paragraphs_demo_admin_theme.git",
+                "reference": "8677d8ed8bf758a0141c7c48b9533e361fe02325"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jeff-cardwell/adug_paragraphs_demo_admin_theme/zipball/8677d8ed8bf758a0141c7c48b9533e361fe02325",
+                "reference": "8677d8ed8bf758a0141c7c48b9533e361fe02325",
+                "shasum": ""
+            },
+            "type": "drupal-theme",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Jeff Cardwell",
+                    "email": "jeffcardwell@gmail.com"
+                }
+            ],
+            "description": "ADUG Paragraphs Demo Admin Theme",
+            "support": {
+                "source": "https://github.com/jeff-cardwell/adug_paragraphs_demo_admin_theme/tree/develop",
+                "issues": "https://github.com/jeff-cardwell/adug_paragraphs_demo_admin_theme/issues"
+            },
+            "time": "2017-01-12 17:46:40"
         },
         {
             "name": "jeff-cardwell/apdmt",
@@ -3983,7 +4014,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "drupal/field_group": 5,
-        "jeff-cardwell/apdmt": 20
+        "jeff-cardwell/apdmt": 20,
+        "jeff-cardwell/apdat": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
