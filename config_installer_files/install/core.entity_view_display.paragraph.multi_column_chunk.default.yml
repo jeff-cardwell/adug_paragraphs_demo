@@ -1,0 +1,14 @@
+uuid: 91a9586d-40ab-43d2-a4a2-bfbed69bb494
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.multi_column_chunk
+id: paragraph.multi_column_chunk.default
+targetEntityType: paragraph
+bundle: multi_column_chunk
+mode: default
+content: {  }
+hidden:
+  created: true
+  uid: true

@@ -3,4 +3,4 @@ langcode: en
 status: true
 dependencies: {  }
 id: inset_wrapped_with_text_2
-label: 'Inset Wrapped With Text Using Field Groups - With Component Library'
+label: 'Inset Wrapped With Text Using Field Groups - Using Component Library'

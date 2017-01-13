@@ -3,4 +3,4 @@ langcode: en
 status: true
 dependencies: {  }
 id: inset_wrapped_with_text_1
-label: 'Inset Wrapped With Text - With Component Library'
+label: 'Inset Wrapped With Text - Using Component Library'
