@@ -1,0 +1,26 @@
+uuid: 0c533c2c-7a02-4310-92f5-a6876eef920a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.paragraph_preview
+    - field.field.node.demo_article.field_da_paragraphs
+    - node.type.demo_article
+  module:
+    - entity_reference_revisions
+    - user
+id: node.demo_article.paragraph_preview
+targetEntityType: node
+bundle: demo_article
+mode: paragraph_preview
+content:
+  field_da_paragraphs:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: preview
+      link: ''
+    third_party_settings: {  }
+hidden:
+  links: true

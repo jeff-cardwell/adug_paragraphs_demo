@@ -1,0 +1,62 @@
+uuid: 7612bbbe-49a3-4669-871f-b08ddaf24a6b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.teaser_multi_column_chunk
+    - field.field.paragraph.inset_wrapped_with_text_2.field_iwwt2_horizontal_alignment
+    - field.field.paragraph.inset_wrapped_with_text_2.field_iwwt2_image
+    - field.field.paragraph.inset_wrapped_with_text_2.field_iwwt2_text
+    - paragraphs.paragraphs_type.inset_wrapped_with_text_2
+  module:
+    - field_group
+    - image
+    - options
+    - text
+third_party_settings:
+  field_group:
+    group_inset:
+      children:
+        - field_iwwt2_image
+      parent_name: ''
+      weight: 1
+      format_type: html_element
+      format_settings:
+        id: ''
+        classes: inset-and-text__inset
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+      label: Inset
+id: paragraph.inset_wrapped_with_text_2.teaser_multi_column_chunk
+targetEntityType: paragraph
+bundle: inset_wrapped_with_text_2
+mode: teaser_multi_column_chunk
+content:
+  field_iwwt2_horizontal_alignment:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+  field_iwwt2_image:
+    weight: 2
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_iwwt2_text:
+    weight: 3
+    label: hidden
+    settings:
+      trim_length: 100
+    third_party_settings: {  }
+    type: text_summary_or_trimmed
+hidden:
+  created: true
+  uid: true
