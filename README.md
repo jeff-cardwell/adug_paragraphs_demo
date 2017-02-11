@@ -1,0 +1,1 @@
+Install using the UI.  When it comes time to choose the profile, choose config installer profile.  Enter `config_installer_files` as the directory.
