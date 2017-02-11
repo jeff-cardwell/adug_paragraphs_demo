@@ -6,6 +6,7 @@ dependencies:
     - field.field.paragraph.image_with_quote_4.field_iwq4_citation
     - field.field.paragraph.image_with_quote_4.field_iwq4_image
     - field.field.paragraph.image_with_quote_4.field_iwq4_quote
+    - image.style.image_with_quote_crop
     - paragraphs.paragraphs_type.image_with_quote_4
   module:
     - field_group
@@ -94,7 +95,7 @@ content:
     weight: 1
     label: hidden
     settings:
-      image_style: ''
+      image_style: image_with_quote_crop
       image_link: ''
     third_party_settings: {  }
     type: image
