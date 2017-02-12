@@ -14,24 +14,6 @@ dependencies:
     - text
 third_party_settings:
   field_group:
-    group_component:
-      children:
-        - group_region_1
-        - group_region_2
-        - group_region_3
-      parent_name: ''
-      weight: 0
-      format_type: html_element
-      format_settings:
-        id: ''
-        classes: image-with-quote-overlay
-        element: div
-        show_label: false
-        label_element: h3
-        attributes: ''
-        effect: none
-        speed: fast
-      label: Component
     group_region_1:
       children:
         - field_iwq4_image
