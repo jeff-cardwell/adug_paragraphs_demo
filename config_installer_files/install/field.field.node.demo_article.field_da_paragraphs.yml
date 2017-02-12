@@ -14,7 +14,7 @@ id: node.demo_article.field_da_paragraphs
 field_name: field_da_paragraphs
 entity_type: node
 bundle: demo_article
-label: 'DA Paragraphs'
+label: 'Demo Article Paragraphs'
 description: ''
 required: false
 translatable: false
@@ -49,7 +49,4 @@ settings:
       multi_column_chunk_1:
         enabled: true
         weight: 15
-      multi_column_chunk_2:
-        weight: 16
-        enabled: false
 field_type: entity_reference_revisions
