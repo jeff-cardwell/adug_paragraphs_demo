@@ -1,6 +1,6 @@
 uuid: 30300f79-b954-4a11-a8d3-e90663cd2c82
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - core.entity_view_mode.paragraph.teaser_multi_column_chunk
