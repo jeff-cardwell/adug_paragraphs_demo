@@ -3,4 +3,4 @@ langcode: en
 status: true
 dependencies: {  }
 id: image_with_quote_4
-label: 'Image with Quote Using Field Groups - Using Component Library'
+label: 'Image with Quote - Using Component Library and Field Groups'
