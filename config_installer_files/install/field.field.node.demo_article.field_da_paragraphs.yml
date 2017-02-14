@@ -6,7 +6,7 @@ dependencies:
     - field.storage.node.field_da_paragraphs
     - node.type.demo_article
     - paragraphs.paragraphs_type.image_with_quote_4
-    - paragraphs.paragraphs_type.inset_wrapped_with_text_2
+    - paragraphs.paragraphs_type.inset_wrapped_with_text_1
     - paragraphs.paragraphs_type.multi_column_chunk_1
   module:
     - entity_reference_revisions
@@ -25,28 +25,16 @@ settings:
   handler_settings:
     target_bundles:
       image_with_quote_4: image_with_quote_4
-      inset_wrapped_with_text_2: inset_wrapped_with_text_2
+      inset_wrapped_with_text_1: inset_wrapped_with_text_1
       multi_column_chunk_1: multi_column_chunk_1
     target_bundles_drag_drop:
-      image_with_quote_1:
-        weight: 9
-        enabled: false
-      image_with_quote_2:
-        weight: 10
-        enabled: false
-      image_with_quote_3:
-        weight: 11
-        enabled: false
       image_with_quote_4:
         enabled: true
-        weight: 12
+        weight: -7
       inset_wrapped_with_text_1:
-        weight: 13
-        enabled: false
-      inset_wrapped_with_text_2:
         enabled: true
-        weight: 14
+        weight: -7
       multi_column_chunk_1:
         enabled: true
-        weight: 15
+        weight: -7
 field_type: entity_reference_revisions
