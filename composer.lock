@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ba5223a626bf60fda3b46d461b96c6cc",
+    "content-hash": "5a2c2d6facaffd3eeb0cd3f627bf0f9a",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1422,12 +1422,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeff-cardwell/adug_paragraphs_demo_admin_theme.git",
-                "reference": "8677d8ed8bf758a0141c7c48b9533e361fe02325"
+                "reference": "c972e881ba6a8653c58d06c63dad840a4fde4078"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeff-cardwell/adug_paragraphs_demo_admin_theme/zipball/8677d8ed8bf758a0141c7c48b9533e361fe02325",
-                "reference": "8677d8ed8bf758a0141c7c48b9533e361fe02325",
+                "url": "https://api.github.com/repos/jeff-cardwell/adug_paragraphs_demo_admin_theme/zipball/c972e881ba6a8653c58d06c63dad840a4fde4078",
+                "reference": "c972e881ba6a8653c58d06c63dad840a4fde4078",
                 "shasum": ""
             },
             "type": "drupal-theme",
@@ -1442,10 +1442,10 @@
             ],
             "description": "ADUG Paragraphs Demo Admin Theme",
             "support": {
-                "source": "https://github.com/jeff-cardwell/adug_paragraphs_demo_admin_theme/tree/develop",
+                "source": "https://github.com/jeff-cardwell/adug_paragraphs_demo_admin_theme/tree/master",
                 "issues": "https://github.com/jeff-cardwell/adug_paragraphs_demo_admin_theme/issues"
             },
-            "time": "2017-01-12 17:46:40"
+            "time": "2017-02-14 23:33:51"
         },
         {
             "name": "jeff-cardwell/apdmt",
@@ -1453,12 +1453,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeff-cardwell/adug_paragraphs_demo_main_theme.git",
-                "reference": "e31416b3a5084bfa353832a32a8f666edeb50581"
+                "reference": "4d7ee6dd84deff92f51e1794f21656e7a0a228a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeff-cardwell/adug_paragraphs_demo_main_theme/zipball/e31416b3a5084bfa353832a32a8f666edeb50581",
-                "reference": "e31416b3a5084bfa353832a32a8f666edeb50581",
+                "url": "https://api.github.com/repos/jeff-cardwell/adug_paragraphs_demo_main_theme/zipball/4d7ee6dd84deff92f51e1794f21656e7a0a228a8",
+                "reference": "4d7ee6dd84deff92f51e1794f21656e7a0a228a8",
                 "shasum": ""
             },
             "type": "drupal-theme",
@@ -1473,10 +1473,10 @@
             ],
             "description": "ADUG Paragraphs Demo Main Theme",
             "support": {
-                "source": "https://github.com/jeff-cardwell/adug_paragraphs_demo_main_theme/tree/develop",
+                "source": "https://github.com/jeff-cardwell/adug_paragraphs_demo_main_theme/tree/master",
                 "issues": "https://github.com/jeff-cardwell/adug_paragraphs_demo_main_theme/issues"
             },
-            "time": "2017-01-10 20:16:22"
+            "time": "2017-02-15 22:59:06"
         },
         {
             "name": "masterminds/html5",
